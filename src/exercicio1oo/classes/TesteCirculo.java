@@ -1,6 +1,6 @@
 package exercicio1oo.classes;
 
-public class TesteCirculo {
+class TesteCirculo {
     public static void main(String[] args) {
         Circulo roda = new Circulo();
 

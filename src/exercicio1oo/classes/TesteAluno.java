@@ -1,6 +1,6 @@
 package exercicio1oo.classes;
 
-public class TesteAluno {
+class TesteAluno {
     public static void main(String[] args) {
         Aluno Jonathan = new Aluno();
         Jonathan.matricula = "CESMO-42";
