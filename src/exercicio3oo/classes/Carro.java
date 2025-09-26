@@ -1,7 +1,7 @@
-package exercicio2oo.classes;
+package exercicio3oo.classes;
 
 public class Carro {
-    public String modelo, marca;
-    public int ano;
-    public double velocidade;
+    private String modelo, marca;
+    private int ano;
+    private double velocidade;
 }

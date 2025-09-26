@@ -1,6 +1,6 @@
-package exercicio2oo.testes;
+package exercicio3oo.testes;
 
-import exercicio2oo.classes.ContaBancaria;
+import exercicio3oo.classes.ContaBancaria;
 
 class TesteContaBancaria {
     public static void main(String[] args) {

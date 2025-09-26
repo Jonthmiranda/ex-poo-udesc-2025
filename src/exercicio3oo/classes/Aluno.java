@@ -1,8 +1,8 @@
-package exercicio2oo.classes;
+package exercicio3oo.classes;
 
 public class Aluno {
-    public String matricula;
-    public String nome;
-    public int idade;
-    public int nota1, nota2, nota3, nota4;
+    private String matricula;
+    private String nome;
+    private int idade;
+    private int nota1, nota2, nota3, nota4;
 }
