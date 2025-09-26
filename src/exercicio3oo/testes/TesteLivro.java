@@ -6,14 +6,14 @@ class TesteLivro {
     public static void main(String[] args) {
         Livro George = new Livro();
 
-        George.titulo = "A Revolução dos Bichos";
-        George.autor = "George Orwell";
-        George.genero = "Ficção";
-        George.emprestado = true;
+        George.setTitulo("A Revolução dos Bichos");
+        George.setAutor("George Orwell");
+        George.setGenero("Ficção");
+        George.setEmprestado(true);
 
-        System.out.println(George.titulo);
-        System.out.println(George.autor);
-        System.out.println(George.genero);
-        System.out.println(George.emprestado);
+        System.out.printf("titulo: %d/n", George.getTitulo);
+        System.out.printf("autor: %d/n", George.getAutor);
+        System.out.printf("genero: %d/n", George.getGenero);
+        System.out.printf("emprestado: %d/n", George.getEmprestado);
     }
 }

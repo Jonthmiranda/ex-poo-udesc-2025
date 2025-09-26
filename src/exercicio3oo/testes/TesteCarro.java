@@ -6,14 +6,14 @@ class TesteCarro {
     public static void main(String[] args) {
         Carro Celta = new Carro();
 
-        Celta.marca = "Chevrolet";
-        Celta.modelo = "Celta";
-        Celta.ano = 2012;
-        Celta.velocidade = 100;
+        Celta.setMarca("Chevrolet");
+        Celta.setModelo("Celta");
+        Celta.setAno(2012);
+        Celta.setVelocidade(100);
 
-        System.out.println(Celta.marca);
-        System.out.println(Celta.modelo);
-        System.out.println(Celta.ano);
-        System.out.println(Celta.velocidade);
+        System.out.printf("marca: %s/n", Celta.getMarca);
+        System.out.printf("modelo: %s/n", Celta.getModelo);
+        System.out.printf("ano: %d/n", Celta.getAno);
+        System.out.printf("velocidade: %f/n", Celta.getVelocidade);
     }
 }
