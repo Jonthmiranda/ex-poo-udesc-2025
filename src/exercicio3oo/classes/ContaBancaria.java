@@ -1,6 +1,6 @@
 package exercicio3oo.classes;
 
 public class ContaBancaria {
-    public String numeroConta, titular;
-    public double saldo;
+    private String numeroConta, titular;
+    private double saldo;
 }
