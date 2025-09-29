@@ -10,8 +10,8 @@ class TesteContaBancaria {
         Jonathan.setTitular("Jonathan Pires de Miranda");
         Jonathan.setSaldo(1500);
 
-        System.out.printf("titular: %s/n", Jonathan.getTitular);
-        System.out.printf("Numero da conta: %s/n", Jonathan.getNumeroConta);
-        System.out.printf("Saldo de %f/n", Jonathan.getSaldo);
+        System.out.printf("titular: %s/n", Jonathan.getTitular());
+        System.out.printf("Numero da conta: %s/n", Jonathan.getNumeroConta());
+        System.out.printf("Saldo de %f/n", Jonathan.getSaldo());
     }
 }

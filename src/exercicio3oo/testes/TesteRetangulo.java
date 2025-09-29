@@ -9,7 +9,7 @@ class TesteRetangulo {
         reto.setAltura(40);
         reto.setLargura (20);
 
-        System.out.printf("altura: %f/n", (reto.getAltura));
-        System.out.printf("largura: %f/n", (reto.getLargura));
+        System.out.printf("altura: %f/n", reto.getAltura());
+        System.out.printf("largura: %f/n", reto.getLargura());
     }
 }

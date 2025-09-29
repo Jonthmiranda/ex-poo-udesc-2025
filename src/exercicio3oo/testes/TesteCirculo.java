@@ -7,6 +7,6 @@ class TesteCirculo {
         Circulo roda = new Circulo();
 
         roda.setRaio(40);
-        System.out.printf("Raio do circulo é: %f/n", roda.getRaio);
+        System.out.printf("Raio do circulo é: %f/n", roda.getRaio());
     }
 }
