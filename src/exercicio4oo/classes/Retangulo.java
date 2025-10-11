@@ -10,4 +10,9 @@ public class Retangulo {
 
     public double getAltura() { return altura; }
     public void setAltura(double altura) { this.altura = altura; }
+
+    public double calcularArea(){
+        double area = largura * altura;
+        return area;
+    }
 }
