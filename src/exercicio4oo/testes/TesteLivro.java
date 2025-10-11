@@ -9,11 +9,12 @@ class TesteLivro {
         George.setTitulo("A Revolução dos Bichos");
         George.setAutor("George Orwell");
         George.setGenero("Ficção");
-        George.setEmprestado(true);
+        George.setEmprestado(false);
 
-        System.out.printf("titulo: %s/n", George.getTitulo());
-        System.out.printf("autor: %s/n", George.getAutor());
-        System.out.printf("genero: %s/n", George.getGenero());
-        System.out.printf("emprestado: %b/n", George.getEmprestado());
+        George.verificarDisponibilidade();
+        George.emprestar();
+        George.verificarDisponibilidade();
+        George.devolver();
+        George.verificarDisponibilidade();
     }
 }

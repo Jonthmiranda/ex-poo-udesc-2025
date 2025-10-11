@@ -16,4 +16,24 @@ public class Livro {
 
     public boolean getEmprestado() { return emprestado; }
     public void setEmprestado(boolean emprestado) { this.emprestado = emprestado; }
+
+    public boolean emprestar(){
+        emprestado = true;
+        return emprestado;
+    }
+
+    public boolean devolver(){
+        emprestado = false;
+        return emprestado;
+    }
+
+    public void verificarDisponibilidade(){
+        if(emprestado == true){
+            String emp = "indisponivel";
+            System.out.printf("O livro %s\ndo autor %s\ngenero %s\nEstá: %s\n\n", titulo, autor, genero, emp);
+        }else{
+            String emp = "disponivel";
+            System.out.printf("O livro %s\ndo autor %s\ngenero %s\nEstá: %s\n\n", titulo, autor, genero, emp);
+        }
+    }
 }
