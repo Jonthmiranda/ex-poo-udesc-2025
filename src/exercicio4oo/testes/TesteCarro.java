@@ -9,11 +9,14 @@ class TesteCarro {
         Celta.setMarca("Chevrolet");
         Celta.setModelo("Celta");
         Celta.setAno(2012);
-        Celta.setVelocidade(100);
+        Celta.setVelocidade(0);
 
-        System.out.printf("marca: %s/n", Celta.getMarca());
-        System.out.printf("modelo: %s/n", Celta.getModelo());
-        System.out.printf("ano: %d/n", Celta.getAno());
-        System.out.printf("velocidade: %f/n", Celta.getVelocidade());
+        Celta.acelerar();
+        Celta.acelerar();
+        Celta.velocidadeAtual();
+        Celta.freiar();
+        Celta.velocidadeAtual();
+        Celta.freiar();
+        Celta.velocidadeAtual();
     }
 }

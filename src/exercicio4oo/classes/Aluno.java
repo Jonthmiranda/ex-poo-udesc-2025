@@ -35,10 +35,6 @@ public class Aluno {
 
     public void imprimirDados(){
         double media = calcularMedia();
-        String matricula = getMatricula();
-        String nome = getNome();
-        int idade = getIdade();
-
 
         if(media >= 7){
             System.out.printf("Matricula: %s\n" +

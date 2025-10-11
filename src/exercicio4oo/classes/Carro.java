@@ -18,4 +18,21 @@ public class Carro {
 
     public double getVelocidade() { return velocidade; }
     public void setVelocidade(double velocidade) { this.velocidade = velocidade; }
+
+    public double acelerar(){
+        velocidade = velocidade + 10;
+        return velocidade;
+    }
+
+    public double freiar(){
+        velocidade = velocidade - 10;
+        if(velocidade < 0) {
+            velocidade = 0;
+        }
+        return velocidade;
+    }
+
+    public void velocidadeAtual(){
+        System.out.printf("O carro modelo %s da %s ano %d está a %.2f km/h\n", modelo, marca, ano, velocidade);
+    }
 }
