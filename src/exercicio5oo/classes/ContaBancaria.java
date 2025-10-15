@@ -6,6 +6,16 @@ public class ContaBancaria {
     private String numeroConta, titular;
     private double saldo;
 
+    public ContaBancaria(){
+
+    }
+
+    public ContaBancaria(String numeroConta, String titular, double saldo){
+        this.numeroConta = numeroConta;
+        this.titular = titular;
+        this.saldo = saldo;
+    }
+
     //getters e setters
     public String getNumeroConta() { return numeroConta; }
     public void setNumeroConta(String numeroConta) { this.numeroConta = numeroConta; }
@@ -36,5 +46,14 @@ public class ContaBancaria {
         System.out.printf("Conta bancária número: %s\n" +
                 "Titular: %s\n" +
                 "Tem saldo de: %f\n", numeroConta, titular, saldo);
+    }
+
+    @Override
+    public String toString() {
+        return "ContaBancaria{" +
+                "numeroConta='" + numeroConta + '\'' +
+                ", titular='" + titular + '\'' +
+                ", saldo=" + saldo + '\'' +
+                '}';
     }
 }

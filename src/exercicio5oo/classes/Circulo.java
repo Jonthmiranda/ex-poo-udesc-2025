@@ -3,6 +3,14 @@ package exercicio5oo.classes;
 public class Circulo {
     private double raio;
 
+    public Circulo(){
+
+    }
+
+    public Circulo(double raio){
+        this.raio = raio;
+    }
+
     //getters e setters
 
     public double getRaio() { return raio; }
