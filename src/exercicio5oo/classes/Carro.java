@@ -53,6 +53,6 @@ public class Carro {
                 "modelo='" + modelo + '\'' +
                 ", marca='" + marca + '\'' +
                 ", ano=" + ano +
-                ", velocidade=" + velocidade + '}';
+                ", velocidadeAtual=" + velocidade + '}';
     }
 }

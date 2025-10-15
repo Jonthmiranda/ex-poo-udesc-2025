@@ -22,4 +22,13 @@ public class Circulo {
         double area = Math.PI * Math.pow(raio, 2);
         return area;
     }
+
+    @Override
+    public String toString() {
+        return "Circulo{" +
+                "raio='" + raio + '\'' +
+                ", diametro='" + diametro() + '\'' +
+                ", perimetro=" + perimetro() + '\'' +
+                '}';
+    }
 }
