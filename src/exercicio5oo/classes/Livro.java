@@ -4,6 +4,17 @@ public class Livro {
     private String titulo, autor, genero;
     private boolean emprestado;
 
+    public Livro(){
+
+    }
+
+    public Livro(String titulo, String autor, String genero, boolean emprestado){
+        this.titulo = titulo;
+        this.autor = autor;
+        this.genero = genero;
+        this.emprestado = emprestado;
+    }
+
     //getters e setters
     public String getTitulo() { return titulo; }
     public void setTitulo(String titulo) { this.titulo = titulo; }
@@ -35,5 +46,15 @@ public class Livro {
             String emp = "disponivel";
             System.out.printf("O livro %s\ndo autor %s\ngenero %s\nEstá: %s\n\n", titulo, autor, genero, emp);
         }
+    }
+
+    @Override
+    public String toString() {
+        return "Livro{" +
+                "titulo='" + titulo + '\'' +
+                ", autor='" + autor + '\'' +
+                ", genero=" + genero + '\'' +
+                ", emprestado=" + emprestado + '\'' +
+                '}';
     }
 }
